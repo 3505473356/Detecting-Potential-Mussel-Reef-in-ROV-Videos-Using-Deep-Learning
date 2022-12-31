@@ -12,7 +12,7 @@ Blue mussel reefs are listed as biogenic reefs in the Habitat Directive of the E
 
 `PostProcess.ipynb`: It is used to load mussels' coverage information in the video and adjust unreasonable data, finally doing result visulization.
 
-`Poster` and `Report` are the poster and report to our project.
+`Poster.pdf` and `Report.pdf` are the poster and report to this project.
 
 ## How to use the system
 
