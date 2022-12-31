@@ -14,6 +14,10 @@ Blue mussel reefs are listed as biogenic reefs in the Habitat Directive of the E
 
 `Poster.pdf` and `Report.pdf` are the poster and report to this project.
 
+`example.gif`: It is the clip of the output video after detection. The complete video is very big around 8G nearly thirty minutes.
+
+![example](https://github.com/3505473356/Detecting-Potential-Mussel-Reef-in-ROV-Videos-Using-Deep-Learning/blob/main/example.gif)
+
 ## How to use the system
 
 Firstly, download the YOLO code `yolov5_modified`, and use `detect.py` for detection. Same as the turtorial in the https://github.com/ultralytics/yolov5/blob/master/tutorial.ipynb. For example, "python detect.py --weights best.pt(trained model) --source xxxxx(path of video)
