@@ -1,0 +1,7 @@
+train: ../datasets/musselreef_seg_4/train/images
+val: ../datasets/musselreef_seg_4/valid/images
+test: ../datasets/musselreef_seg_4/test/images
+
+
+names:
+  0: musselreef
