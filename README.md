@@ -10,7 +10,7 @@ Blue mussel reefs are listed as biogenic reefs in the Habitat Directive of the E
 
 `yolov5_modified`: It includes all the code and trained model: `best.pt`.
 
-`Image_segmentation`: 
+`yolov5_modified/segment`: It includes all code used for image segmentation.
 
 `PostProcess.ipynb`: It is used to load mussels' coverage information in the video and adjust unreasonable data, finally doing result visulization.
 
@@ -30,4 +30,4 @@ Secondly, one file named by the video's name is created, it includes .npy files,
 
 Thirdly, run the `PostProcess.ipynb`, set visulization parameters and output the result.
 
-For segmentation, using code in ` ` and run ` .py` in `Image segmentation`.
+For segmentation, it's the same as the turtorial in https://github.com/ultralytics/yolov5/blob/master/segment/tutorial.ipynb. In directory yolov5/segment, run command "python predict.py --data musselreef_seg_4.yaml --weights best.pt(trained model) --source xxxxx(path of video)". Make sure correct weights and configuration for image segmentation is used.
