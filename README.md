@@ -30,4 +30,4 @@ Secondly, one file named by the video's name is created, it includes .npy files,
 
 Thirdly, run the `PostProcess.ipynb`, set visulization parameters and output the result.
 
-For segmentation, it's the same as the turtorial in https://github.com/ultralytics/yolov5/blob/master/segment/tutorial.ipynb. In directory yolov5/segment, run command "python predict.py --data musselreef_seg_4.yaml --weights best.pt(trained model) --source xxxxx(path of video)". Make sure correct weights and configuration for image segmentation is used.
+For segmentation, it's the same as the turtorial in https://github.com/ultralytics/yolov5/blob/master/segment/tutorial.ipynb. In directory yolov5_modified/segment, run command "python predict.py --data musselreef_seg_4.yaml --weights best.pt(trained model) --source xxxxx(path of video)" to mark mussels in videos with red masks and bounding boxes. Make sure correct weights and configuration for image segmentation is used.
