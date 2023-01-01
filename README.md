@@ -22,8 +22,10 @@ Blue mussel reefs are listed as biogenic reefs in the Habitat Directive of the E
 
 ## How to use the system
 
-Firstly, download the YOLO code `yolov5_modified`, and use `detect.py` for detection. Same as the turtorial in the https://github.com/ultralytics/yolov5/blob/master/tutorial.ipynb. For example, "python detect.py --weights best.pt(trained model) --source xxxxx(path of video)". For image segmentation, run ` .py` in `Image segmentation`.
+Firstly, download the YOLO code `yolov5_modified`, and use `detect.py` to detect and mark mussels in videos with rectangles. Same as the turtorial in the https://github.com/ultralytics/yolov5/blob/master/tutorial.ipynb. For example, "python detect.py --weights best.pt(trained model) --source xxxxx(path of video)".
 
 Secondly, one file named by the video's name is created, it includes .npy files, the number of them is the number of frames in the video.
 
 Thirdly, run the `PostProcess.ipynb`, set visulization parameters and output the result.
+
+For segmentation, using code in ` ` and run ` .py` in `Image segmentation`.
