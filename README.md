@@ -12,8 +12,6 @@ Blue mussel reefs are listed as biogenic reefs in the Habitat Directive of the E
 
 `yolov5_modified/segment`: It includes all code used for image segmentation.
 
-`PostProcess.ipynb`: It is used to load mussels' coverage information in the video and adjust unreasonable data, finally doing result visulization.
-
 `Poster.pdf` and `Report.pdf` are the poster and report to this project.
 
 `test_images`: It contains three images can be used as `source` input to `detect.py` for mussel detection.
